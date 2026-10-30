@@ -165,6 +165,10 @@ button{font:inherit;color:inherit}
 .mat::before{top:-13px;-webkit-mask:var(--torn-top) left top/240px 14px repeat-x;mask:var(--torn-top) left top/240px 14px repeat-x}
 .mat::after{bottom:-13px;-webkit-mask:var(--torn-bottom) left bottom/240px 14px repeat-x;mask:var(--torn-bottom) left bottom/240px 14px repeat-x}
 .mat .label{text-align:center;color:var(--ink-soft);text-wrap:balance}
+.mat+.mat{margin-top:40px}
+.mat.pop,.t-actions.pop{animation:rise .6s steps(6) both}
+.mat.switch{scroll-margin-top:36px}
+.gotcha{margin:0;text-align:center;font:400 44px/1 var(--f-hand);color:var(--hand);transform:rotate(-2deg)}
 .logo{display:block;margin:0 auto;width:132px;height:132px;filter:drop-shadow(0 12px 26px rgba(0,0,0,.55))}
 .mast .logo{width:76px;height:76px}
 .upnext{display:flex;flex-direction:column;align-items:center;gap:6px;text-align:center;padding:18px 12px 4px;border-top:2px dashed var(--gold-faint)}
@@ -296,7 +300,7 @@ button.punch{appearance:none;-webkit-appearance:none;padding:0;cursor:pointer}
 </head>
 <body>
 <div id="app"></div>
-<script type="application/json" id="trail-data">{"v":1,"herName":"Katherine","signoff":"Love, Alex (and Rosey and Blue)","birthday":"2026-10-29","opensAt":"2026-10-31T08:00","intro":"My dearest Katherine,\nThursday was just the warm-up.\nYour birthday quest begins Saturday at sunrise. Read the clues, solve the riddles, and tear open the day.","finale":"Happy birthday, Katherine.\nLet's make this next year our favorite hunt yet.\nHere's to you.","stops":[{"id":"p0","example":false,"time":"8:00 AM","place":"Good morning","clue":"Stay right where you are. The first ticket is from me.","address":"","code":"","codeHint":"No riddle on this one. Tear it open whenever you're ready.","tease":"","star":"Alex","videoId":"da35b7ff0d6e2f92db9de003f3c2f096","videoLink":"","giftTitle":"","giftPhotoId":"","giftNote":"","openNote":"","riddle":"","unlockAt":""},{"id":"pc","example":false,"time":"8:35 AM","place":"The car","clue":"Get dressed and grab your sunglasses. Meet me at the car.","address":"","code":"VAMPIRE/VAMPIRES/A VAMPIRE/VAMP","codeHint":"Tear it open right before we pull out.","tease":"","openNote":"","star":"Nandor","videoId":"ceff4c4040b86ed73ae20c147ee63d82","videoLink":"","giftTitle":"","giftPhotoId":"","giftNote":"","riddle":"I sleep all day in a coffin, I can't stand garlic, and I never show up in a mirror. What am I?","unlockAt":"08:30"},{"id":"p2","example":false,"time":"9:00 AM","place":"Renninger's, Mount Dora","clue":"Head north toward Mount Dora. Next stop: hundreds of booths full of things nobody needs and you'll want anyway.","address":"","code":"TREAT/TREATS/A TREAT/DOG TREAT/DOG TREATS","codeHint":"Tear it open when we're ready to leave.","tease":"","star":"Rosey and Blue","videoId":"c8211fcf265361afabba5203ea01b628","videoLink":"","giftTitle":"","giftPhotoId":"","giftNote":"","openNote":"","riddle":"Say me out loud and two someones come running. They'll sit, shake and beg for me. What am I?","unlockAt":"10:35"},{"id":"p3","example":false,"time":"11:10 AM","place":"Home, for the dogs","clue":"Back home for a minute. Rosey and Blue have been waiting by the door all morning.","address":"","code":"HEAD OF HOUSEHOLD/HOH/HOUSEHOLD","codeHint":"Tear it open right before we head back out.","tease":"","star":"Barrett","videoId":"a86e35f23f158e5433e97cc97dff829b","videoLink":"","giftTitle":"","giftPhotoId":"","giftNote":"","openNote":"","riddle":"I get the key, the private room and the power to nominate. What am I?","unlockAt":"11:25"},{"id":"p5","example":false,"time":"12:00 PM","place":"Zen Dumpling, Altamonte","clue":"Lunch is next. I'm not telling you where. You'll know it when you smell it.","address":"","code":"TIMEPASS/TIME PASS/A TIMEPASS/GOOD TIMEPASS/A GOOD TIMEPASS","codeHint":"Tear it open when we're ready to go.","tease":"","star":"LK","videoId":"4a9aae7cc7eb27457f42618690ff48e9","videoLink":"","giftTitle":"","giftPhotoId":"","giftNote":"","openNote":"","riddle":"It's not great, it's not bad, but it's a good ___. A certain friend in Austin says it about anything that's just passable. What's the word?","unlockAt":"12:45"},{"id":"p6","example":false,"time":"12:50 PM","place":"Wildwood, on the big screen","clue":"Get comfortable. The next stop lasts a couple of hours, and your phone stays in your pocket.","address":"","code":"ARC RAIDERS/ARCRAIDERS/ARC RAIDER/ARC","codeHint":"Tear it open when it's over.","tease":"","star":"Jess","videoId":"b15d3b68e50596ab690493765be078c2","videoLink":"","giftTitle":"","giftPhotoId":"","giftNote":"","openNote":"","riddle":"I'm the game where you found a friend for life, and you two still drop in together. What am I?","unlockAt":"15:20"},{"id":"p4","example":false,"time":"3:45 PM","place":"Goodwill","clue":"One more stop before we see the dogs. Keep your eyes open for something you didn't know you needed.","address":"","code":"BLOCK/THE BLOCK/ON THE BLOCK","codeHint":"Tear it open when we're ready to leave.","tease":"","star":"Tucker","videoId":"32a5a6772870919861c6f1077d227aa8","videoLink":"","giftTitle":"","giftPhotoId":"","giftNote":"","openNote":"","riddle":"In a certain house, nobody wants to sit on me. Get nominated, and that's exactly where you end up. What am I?","unlockAt":"16:10"},{"id":"p7","example":false,"time":"4:40 PM","place":"Home again","clue":"Back to Rosey and Blue one more time. Change into something comfortable. Tonight takes teamwork.","address":"","code":"CHALLENGE/THE CHALLENGE/CHALLENGES","codeHint":"Tear it open right before we head out.","tease":"","star":"Wes","videoId":"7bc709da73d63a02a34807d891368066","videoLink":"","giftTitle":"","giftPhotoId":"","giftNote":"","openNote":"","riddle":"I'm what you accept when someone dares you, and a certain someone has won me three times. What am I?","unlockAt":"17:30"},{"id":"p8","example":false,"time":"6:40 PM","place":"The Escape Ventures, I-Drive","clue":"To International Drive. We have sixty minutes to get out of a locked room together. No pressure.","address":"","code":"COOKOUT/THE COOKOUT/COOK OUT","codeHint":"Tear it open when we get out, win or lose.","tease":"","star":"Xavier","videoId":"6311b4f579aeeea7f752d7ea243a185e","videoLink":"","giftTitle":"","giftPhotoId":"","giftNote":"","openNote":"","riddle":"I sound like a backyard barbecue, but in a certain house I was the name of a six-person alliance that made history. What am I?","unlockAt":"19:30"},{"id":"p9","example":false,"time":"7:55 PM","place":"Bawarchi Biryanis","clue":"Last stop of the night. It's just up the road, and you've earned it.","address":"","code":"CHICKEN/CHICK/MOM/MOMMY","codeHint":"Tear it open when we're ready to head home.","tease":"","star":"Your mom","videoId":"0418fbacc38d764bad52284f11330470","videoLink":"","giftTitle":"","giftPhotoId":"","giftNote":"","openNote":"","riddle":"To everyone else, I'm a bird that crosses the road. To you, I'm the first person who ever held you and the one who loves you most. What do you call me?","unlockAt":"20:30"}],"master":"1015"}</script>
+<script type="application/json" id="trail-data">{"v":1,"herName":"Katherine","signoff":"Love, Alex (and Rosey and Blue)","birthday":"2026-10-29","opensAt":"2026-10-31T08:00","intro":"My dearest Katherine,\nThursday was just the warm-up.\nYour birthday quest begins Saturday at sunrise. Read the clues, solve the riddles, and tear open the day.","finale":"Happy birthday, Katherine.\nLet's make this next year our favorite hunt yet.\nHere's to you.","stops":[{"id":"p0","example":false,"time":"8:00 AM","place":"Good morning","clue":"Stay right where you are. The first ticket is from me.","address":"","code":"","codeHint":"No riddle on this one. Tear it open whenever you're ready.","tease":"","star":"Alex","videoId":"da35b7ff0d6e2f92db9de003f3c2f096","videoLink":"","giftTitle":"","giftPhotoId":"","giftNote":"","openNote":"","riddle":"","unlockAt":""},{"id":"pc","example":false,"time":"8:35 AM","place":"The car","clue":"Get dressed and grab your sunglasses. Meet me at the car.","address":"","code":"VAMPIRE/VAMPIRES/A VAMPIRE/VAMP","codeHint":"Tear it open right before we pull out.","tease":"","openNote":"","star":"Nandor","videoId":"ceff4c4040b86ed73ae20c147ee63d82","videoLink":"","giftTitle":"","giftPhotoId":"","giftNote":"","riddle":"I sleep all day in a coffin, I can't stand garlic, and I never show up in a mirror. What am I?","unlockAt":"08:30"},{"id":"p2","example":false,"time":"9:00 AM","place":"Renninger's, Mount Dora","clue":"Head north toward Mount Dora. Next stop: hundreds of booths full of things nobody needs and you'll want anyway.","address":"","code":"TREAT/TREATS/A TREAT/DOG TREAT/DOG TREATS","codeHint":"Tear it open when we're ready to leave.","tease":"","star":"Rosey and Blue","videoId":"c8211fcf265361afabba5203ea01b628","videoLink":"","giftTitle":"","giftPhotoId":"","giftNote":"","openNote":"","riddle":"Say me out loud and two someones come running. They'll sit, shake and beg for me. What am I?","unlockAt":"10:35"},{"id":"p3","example":false,"time":"11:10 AM","place":"Home, for the dogs","clue":"Back home for a minute. Rosey and Blue have been waiting by the door all morning.","address":"","code":"HEAD OF HOUSEHOLD/HOH/HOUSEHOLD","codeHint":"Tear it open right before we head back out.","tease":"","star":"Barrett","videoId":"a86e35f23f158e5433e97cc97dff829b","videoLink":"","giftTitle":"","giftPhotoId":"","giftNote":"","openNote":"","riddle":"I get the key, the private room and the power to nominate. What am I?","unlockAt":"11:25"},{"id":"p5","example":false,"time":"12:00 PM","place":"Zen Dumpling, Altamonte","clue":"Lunch is next. I'm not telling you where. You'll know it when you smell it.","address":"","code":"TIMEPASS/TIME PASS/A TIMEPASS/GOOD TIMEPASS/A GOOD TIMEPASS","codeHint":"Tear it open when we're ready to go.","tease":"","star":"LK","videoId":"4a9aae7cc7eb27457f42618690ff48e9","videoLink":"","giftTitle":"","giftPhotoId":"","giftNote":"","openNote":"","riddle":"It's not great, it's not bad, but it's a good ___. A certain friend in Austin says it about anything that's just passable. What's the word?","unlockAt":"12:45"},{"id":"p6","example":false,"time":"12:50 PM","place":"Wildwood, on the big screen","clue":"Get comfortable. The next stop lasts a couple of hours, and your phone stays in your pocket.","address":"","code":"ARC RAIDERS/ARCRAIDERS/ARC RAIDER/ARC","codeHint":"Tear it open when it's over.","tease":"","star":"Jess","videoId":"b15d3b68e50596ab690493765be078c2","videoLink":"","giftTitle":"","giftPhotoId":"","giftNote":"","openNote":"","riddle":"I'm the game where you found a friend for life, and you two still drop in together. What am I?","unlockAt":"15:20"},{"id":"p4","example":false,"time":"3:45 PM","place":"Goodwill","clue":"One more stop before we see the dogs. Keep your eyes open for something you didn't know you needed.","address":"","code":"BLOCK/THE BLOCK/ON THE BLOCK","codeHint":"Tear it open when we're ready to leave.","tease":"","star":"Tucker","videoId":"32a5a6772870919861c6f1077d227aa8","videoLink":"","giftTitle":"","giftPhotoId":"","giftNote":"","openNote":"","riddle":"In a certain house, nobody wants to sit on me. Get nominated, and that's exactly where you end up. What am I?","unlockAt":"16:10"},{"id":"p7","example":false,"time":"4:40 PM","place":"Home again","clue":"Back to Rosey and Blue one more time. Change into something comfortable. Tonight takes teamwork.","address":"","code":"CHALLENGE/THE CHALLENGE/CHALLENGES","codeHint":"Tear it open right before we head out.","tease":"","star":"Wes","videoId":"7bc709da73d63a02a34807d891368066","videoLink":"","giftTitle":"","giftPhotoId":"","giftNote":"","openNote":"","riddle":"I'm what you accept when someone dares you, and a certain someone has won me three times. What am I?","unlockAt":"17:30"},{"id":"p8","example":false,"time":"6:40 PM","place":"The Escape Ventures, I-Drive","clue":"To International Drive. We have sixty minutes to get out of a locked room together. No pressure.","address":"","code":"COOKOUT/THE COOKOUT/COOK OUT","codeHint":"Tear it open when we get out, win or lose.","tease":"","star":"Xavier","videoId":"6311b4f579aeeea7f752d7ea243a185e","videoLink":"","giftTitle":"","giftPhotoId":"","giftNote":"","openNote":"","riddle":"I sound like a backyard barbecue, but in a certain house I was the name of a six-person alliance that made history. What am I?","unlockAt":"19:30"},{"id":"p9","example":false,"time":"7:55 PM","place":"Bawarchi Biryanis","clue":"Last stop of the night. It's just up the road, and you've earned it.","address":"","code":"CHICKEN/CHICK/MOM/MOMMY","codeHint":"Tear it open when we're ready to head home.","tease":"","star":"Your mom","videoId":"0418fbacc38d764bad52284f11330470","videoLink":"","giftTitle":"","giftPhotoId":"","giftNote":"","openNote":"","riddle":"To everyone else, I'm a bird that crosses the road. To you, I'm the first person who ever held you and the one who loves you most. What do you call me?","unlockAt":"20:30","baitStar":"Bill","baitVideoId":"09b002d32ca988521dc3adbac4006ecd"}],"master":"1015"}</script>
 <script id="trail-script">
 (function () {
   'use strict';
@@ -502,7 +506,7 @@ button.punch{appearance:none;-webkit-appearance:none;padding:0;cursor:pointer}
     var examples = d.stops.filter(function (s) { return s.example; }).length;
     if (examples) lines.push(examples === d.stops.length ? 'Every ticket below is an example. Tap Edit adventure to swap in your real stops, cameos and gifts.' : examples + ' ticket' + (examples > 1 ? 's are' : ' is') + ' still an example. Edit ' + (examples > 1 ? 'them' : 'it') + ' before Saturday.');
     var missing = [];
-    d.stops.forEach(function (s) { if (!s.example && s.star && !s.videoId && !s.videoLink) missing.push(s.star); });
+    d.stops.forEach(function (s) { if (!s.example && s.star && !s.videoId && !s.videoLink) missing.push(s.star); if (!s.example && s.baitStar && !s.baitVideoId) missing.push(s.baitStar); });
     if (missing.length) lines.push('Still waiting on videos from ' + (missing.length > 1 ? missing.slice(0, -1).join(', ') + ' and ' + missing[missing.length - 1] : missing[0]) + '. She won\'t see a cameo at a stop until its video is added, so a late one simply drops out.');
     if (opensAt && Date.now() < opensAt.getTime()) lines.push('She sees a countdown until ' + fmtDay(opensAt) + ', ' + fmtTime(opensAt) + '. You skip it because you can edit this page; tap See countdown to view it.');
     lines.push('Opening tickets here only changes your own progress on this device.');
@@ -514,9 +518,9 @@ button.punch{appearance:none;-webkit-appearance:none;padding:0;cursor:pointer}
     return '<a class="mapbtn" href="https://maps.apple.com/?q=' + encodeURIComponent(addr) + '" target="_blank" rel="noopener noreferrer">' + COMPASS + '<span>Map</span></a>';
   }
 
-  function videoBlock(s) {
-    var src = blobSrc(s.videoId), link = safeUrl(s.videoLink);
-    if (src) return '<div class="vframe"><video playsinline preload="metadata" src="' + esc(src) + '"></video><div class="vcover" aria-hidden="true"><span>Who could it be?</span></div><i class="vc tl"></i><i class="vc tr"></i><i class="vc bl"></i><i class="vc br"></i><button class="playpill" type="button" data-act="play"><span class="pi" aria-hidden="true"></span><span>Play the message</span></button></div>';
+  function videoBlock(s, vid, cover) {
+    var src = blobSrc(vid || s.videoId), link = vid ? '' : safeUrl(s.videoLink);
+    if (src) return '<div class="vframe"><video playsinline preload="metadata" src="' + esc(src) + '"></video><div class="vcover" aria-hidden="true"><span>' + esc(cover || 'Who could it be?') + '</span></div><i class="vc tl"></i><i class="vc tr"></i><i class="vc bl"></i><i class="vc br"></i><button class="playpill" type="button" data-act="play"><span class="pi" aria-hidden="true"></span><span>Play the message</span></button></div>';
     if (link) return '<a class="playpill static" href="' + esc(link) + '" target="_blank" rel="noopener noreferrer"><span class="pi" aria-hidden="true"></span><span>Watch the message</span></a>';
     return '<div class="vframe empty"><span>The video' + (s.star ? ' from ' + esc(s.star) : '') + ' plays here</span></div>';
   }
@@ -553,8 +557,26 @@ button.punch{appearance:none;-webkit-appearance:none;padding:0;cursor:pointer}
     return h + '</section>';
   }
 
-  function messageBlock(s, rc) {
-    var h = '<section class="mat' + (state.heard.has(s.id) || !blobSrc(s.videoId) ? ' heard' : '') + rc + '" id="m-' + esc(s.id) + '" data-id="' + esc(s.id) + '" style="--d:1">';
+  function hasBait(s) { return !!(s.baitStar && blobSrc(s.baitVideoId) && (s.videoId || s.videoLink)); }
+  function baitId(s) { return s.id + '-bait'; }
+  function baitDone(s, past) { return past || state.seen.has(baitId(s)); }
+
+  function messageBlock(s, rc, past) {
+    var h = '';
+    if (hasBait(s)) {
+      var bid = baitId(s), open = baitDone(s, past);
+      h += '<section class="mat' + (state.heard.has(bid) ? ' heard' : '') + rc + '" id="m-' + esc(bid) + '" data-id="' + esc(bid) + '" data-next="sw-' + esc(s.id) + ' a-' + esc(s.id) + '" style="--d:1">';
+      h += '<p class="label">Someone recorded a message for you!</p>';
+      h += videoBlock(s, s.baitVideoId);
+      h += '<p class="from">From ' + esc(s.baitStar) + '</p></section>';
+      h += '<section class="mat switch' + (state.heard.has(s.id) || !blobSrc(s.videoId) ? ' heard' : '') + (open ? rc : '') + '" id="sw-' + esc(s.id) + '" data-id="' + esc(s.id) + '" style="--d:2"' + (open ? '' : ' hidden') + '>';
+      h += '<p class="gotcha">' + para(s.baitTurn || 'Just kidding.') + '</p>';
+      h += '<p class="label">' + esc(s.baitLabel || 'Here\'s the real main event.') + '</p>';
+      h += videoBlock(s, '', s.baitCover || 'For real this time.');
+      if (s.star) h += '<p class="from">From ' + esc(s.star) + '</p>';
+      return h + '</section>';
+    }
+    h += '<section class="mat' + (state.heard.has(s.id) || !blobSrc(s.videoId) ? ' heard' : '') + rc + '" id="m-' + esc(s.id) + '" data-id="' + esc(s.id) + '" style="--d:1">';
     h += '<p class="label">Someone recorded a message for you!</p>';
     if (s.tease) h += '<p class="mat-tease">' + para(s.tease) + '</p>';
     h += videoBlock(s);
@@ -572,13 +594,14 @@ button.punch{appearance:none;-webkit-appearance:none;padding:0;cursor:pointer}
     h += '<h2 class="place">' + esc(s.place || 'Stop ' + (i + 1)) + '</h2>';
     if (s.address) h += '<p class="addr">' + esc(s.address) + '</p>';
     if (s.openNote) h += '<div class="scrap parchment torn' + r + '" style="--d:1"><p class="hand">' + para(s.openNote) + '</p></div>';
-    if (s.videoId || s.videoLink || (state.canEdit && s.star)) h += messageBlock(s, r);
+    if (s.videoId || s.videoLink || (state.canEdit && s.star)) h += messageBlock(s, r, past);
     if (s.giftTitle || s.giftNote || s.giftPhotoId) h += giftBlock(s, r);
     if (next) {
       var shown = past || state.seen.has(s.id) || !blobSrc(s.videoId);
       h += '<section class="upnext' + (shown ? r : '') + '" id="u-' + id + '" style="--d:3"' + (shown ? '' : ' hidden') + '><p class="label">Up next</p><p class="un-place">' + esc(next.place || 'Stop ' + (i + 2)) + '</p>' + '</section>';
     }
-    h += '<div class="t-actions' + r + '" style="--d:3">';
+    var hold = hasBait(s) && !baitDone(s, past);
+    h += '<div class="t-actions' + r + '" id="a-' + id + '" style="--d:3"' + (hold ? ' hidden' : '') + '>';
     if (past) h += '<button class="next" type="button" data-act="current">Back to where you are &rarr;</button>';
     else h += '<button class="next" type="button" data-act="advance" data-id="' + id + '">' + (next ? 'Next clue' : 'To the last page') + ' &rarr;</button>';
     return h + '</div></article>';
@@ -1059,11 +1082,24 @@ button.punch{appearance:none;-webkit-appearance:none;padding:0;cursor:pointer}
     var mat = v.closest('.mat'), id = mat && mat.dataset.id;
     if (!id) return;
     state.seen.add(id); saveSeen();
-    var u = document.getElementById('u-' + id);
-    if (u && u.hidden) {
-      u.hidden = false; u.classList.add('pop');
-      u.scrollIntoView({ block: 'center', behavior: reduced() ? 'auto' : 'smooth' });
-    }
+    revealAfter(mat, id);
+  }, true);
+
+  function revealAfter(mat, id) {
+    var first = null;
+    (mat.dataset.next || 'u-' + id).split(' ').forEach(function (k) {
+      var el = document.getElementById(k);
+      if (el && el.hidden) { el.hidden = false; el.classList.add('pop'); if (!first) first = el; }
+    });
+    if (first) first.scrollIntoView({ block: first.classList.contains('mat') ? 'start' : 'center', behavior: reduced() ? 'auto' : 'smooth' });
+  }
+
+  // If the decoy video can't load, don't strand her: show the real one.
+  app.addEventListener('error', function (e) {
+    var v = e.target;
+    if (!v || v.tagName !== 'VIDEO') return;
+    var mat = v.closest('.mat');
+    if (mat && mat.dataset.next) revealAfter(mat, mat.dataset.id);
   }, true);
 
   app.addEventListener('input', function (e) {
